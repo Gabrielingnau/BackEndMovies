@@ -12,7 +12,7 @@ The idea is to create an application in Node.js where the user registers a movie
 
 # Technologies used
 
-HTML e CSS 
+node.js
 
 ### leyout
 
