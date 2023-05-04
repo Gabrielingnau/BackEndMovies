@@ -10,7 +10,7 @@ The idea is to create an application in Node.js where the user registers a movie
 - SQL
 - Query Builder
 
-# Technologies used
+# Technologies used.
 
 node.js
 
