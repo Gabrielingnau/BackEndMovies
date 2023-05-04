@@ -5,7 +5,7 @@ knex.schema.createTable('notes', table => {
   table.text('title')
   table.text('description')
   table.integer('rating')
-  table.integer('user_id').references('id').inTable('users')
+  table.integer('user_id').references('id').inTable('users').onDelete("CASCADE")
 
   table.timestamp('created_ad').default(knex.fn.now())
   table.timestamp('updated_at').default(knex.fn.now())
