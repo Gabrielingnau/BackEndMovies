@@ -4,13 +4,13 @@ class NotesControlles {
     async create(requeste, response) {
      const { title, description, rating, tags } = requeste.body
 
-     const user_id = request.user.id
+     const user_id = requeste.user.id
 
      const [note_id] = await knex("notes").insert({
         title,
         description,
+        rating,
         user_id,
-        rating
      })
 
      const tagsInsert = tags.map(name => {
@@ -28,7 +28,7 @@ class NotesControlles {
     }
 
     async show(request, response) {
-        const user_id = request.user.id
+        const { id } = request.params
 
         const note = await knex("notes").where({ id }).first()
         const tags = await knex("tags").where({ note_id: id }).orderBy("name")
@@ -37,14 +37,6 @@ class NotesControlles {
             ...note,
             tags
         })
-    }
-
-    async delete(request, response) {
-        const { id } = request.params
-
-        await knex("notes").where({ id }).delete()
-
-        return response.json()
     }
 
     async delete(request, response) {
