@@ -4,7 +4,7 @@ const SessionsController = require("../controllers/SessionsController")
 
 const sessionsRouter = Router()
 
-const sessionsController = new SessionsController()
+const sessionsController = new SessionsController
 
 sessionsRouter.post("/", sessionsController.create)
 
