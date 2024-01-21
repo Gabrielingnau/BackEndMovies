@@ -1,7 +1,7 @@
 
 # BackEndMovies
 
-The idea is to create an application in Node.js where the user registers a movie, fills in some information (name, description, note) and creates tags related to it.
+The idea is to create an application in Node.js where the user registers a movie, fills in some information (name, description, movie) and creates tags related to it.
 
 # What will be addressed in this challenge:
 
