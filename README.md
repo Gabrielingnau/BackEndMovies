@@ -25,24 +25,25 @@ Also, it's good to have an editor to work with the code, such as [VSCode](https:
 
 Inside the VsCode terminal write the following code
 
-```
+```bash
 git init
+
+git clone https://github.com/Gabrielingnau/BackEndNotes
+
+# In the BackEnd insert a port and a secret in the empty .env file
+  AUTH_SECRET=
+  PORT=
+
+# Install the necessary dependencies
+$ npm install
+
+# Now start the BackEnd server
+$ npm run dev
+
+# The server will start at port:3333 - go to <http://localhost:3333>
 ```
 
-```
-git clone https://github.com/Gabrielingnau/BackEndMovies
-```
-Then intade the dependencies with
-
-```
-npm install
-```
-
-Then just run the project with
-
-```
-npm run dev
-```
+---
 
 ## 🛠️ Built with
 
