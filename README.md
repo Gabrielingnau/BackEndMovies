@@ -1,51 +1,50 @@
-
 # BackEndMovies
 
-The idea is to create an application in Node.js where the user registers a movie, fills in some information (name, description, movie) and creates tags related to it.
+A ideia é criar uma aplicação em Node.js onde o usuário cadastra um filme, preenche algumas informações (nome, descrição, nota) e cria tags relacionadas a ele.
 
-# What will be addressed in this challenge:
+# O que será abordado neste desafio:
 
-- Password encryption
-- Email validation
-- Create an app Node.js
+- Criptografia de senha
+- Validação de email
+- Criar uma aplicação em Node.js
 - SQL
 - Query Builder
 
-## 🚀 Starting
+## 🚀 Começando
 
-These instructions will allow you to obtain a copy of the working project on your local machine for development and testing purposes.
+Estas instruções permitirão que você obtenha uma cópia do projeto funcionando na sua máquina para fins de desenvolvimento e teste.
 
-## 🔧 Installation
+## 🔧 Instalação
 
-### Prerequisites
+### Pré-requisitos
 
-Before you begin, you will need to have the following tools installed on your machine:
-[Node.js] (https://nodejs.org/en/). 
-Also, it's good to have an editor to work with the code, such as [VSCode](https://code.visualstudio.com/)
+Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina:
+[Node.js](https://nodejs.org/en/).  
+Também é bom ter um editor para trabalhar com o código, como [VSCode](https://code.visualstudio.com/)
 
-Inside the VsCode terminal write the following code
+No terminal do VSCode, escreva o seguinte código:
 
 ```bash
 git init
 
 git clone https://github.com/Gabrielingnau/BackEndNotes
 
-# In the BackEnd insert a port and a secret in the empty .env file
+# No BackEnd, insira uma porta e um segredo no arquivo .env vazio
   SECRET_API=
   PORT=
 
-# Install the necessary dependencies
+# Instale as dependências necessárias
 $ npm install
 
-# Now start the BackEnd server
+# Agora inicie o servidor do BackEnd
 $ npm run dev
 
-# The server will start at port:3333 - go to <http://localhost:3333>
+# O servidor iniciará na porta 3333 - acesse <http://localhost:3333>
 ```
 
 ---
 
-## 🛠️ Built with
+## 🛠️ Desenvolvido com
 
 - [Node.js](https://nodejs.org/en/)
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
@@ -59,5 +58,5 @@ $ npm run dev
 - [CORS](https://www.npmjs.com/package/cors)
 
 ---
-⌨️ with ❤️ by [Gabriel Lingnau](https://github.com/Gabrielingnau) 😊
-=======
+# ⌨️ com ❤️ por [Gabriel Lingnau](https://www.linkedin.com/in/gabriel-lingnau-3bb17b266/) 😊
+
